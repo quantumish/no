@@ -1,5 +1,8 @@
 # nay
-No.
+nay.
+
+The long awaited missing counterpart of the infamous `yes`.
+Outputs `n` -- blazingly fast.
 
 ## building
 ```sh
@@ -10,11 +13,12 @@ cargo +nightly build --release
 or
 
 ```
-cargo install nay
+cargo +nightly install nay
 ```
 
 
 ## usage
-```
-$ no
+```sh
+$ nay
+$ nay | cat # to see output
 ```
