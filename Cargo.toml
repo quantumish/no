@@ -6,11 +6,6 @@ authors = ["quantumish <quantumish@jklsnt.com>", "enquirer <enquirer@jklsnt.com>
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/quantumish/no"
-description = "`no` -- like `yes`, but a bit more negative, and a lot more speedy."
+description = "like 'yes', but a bit more negative, and a lot more speedy."
 categories = ["command-line-utilities"]
 keywords = ["cli", "yes", "no", "built-in"]
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-nix = { version = "0.24.1", features = ["zerocopy"] }

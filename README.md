@@ -17,9 +17,9 @@ or
 cargo +nightly install nay
 ```
 
-
 ## usage
 ```sh
 $ nay
 $ nay | cat # to see output
+$ nay | pv > /dev/null # to check speed
 ```
