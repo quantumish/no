@@ -2,7 +2,8 @@
 nay.
 
 The long awaited missing counterpart of the infamous `yes`.
-Outputs `n` -- blazingly fast.
+
+🚀 Outputs `n` — *blazingly* fast.
 
 ## building
 ```sh

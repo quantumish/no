@@ -36,6 +36,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "nay"
+version = "0.1.0"
+dependencies = [
+ "nix",
+]
+
+[[package]]
 name = "nix"
 version = "0.24.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -45,11 +52,4 @@ dependencies = [
  "cfg-if",
  "libc",
  "memoffset",
-]
-
-[[package]]
-name = "no"
-version = "0.1.0"
-dependencies = [
- "nix",
 ]
