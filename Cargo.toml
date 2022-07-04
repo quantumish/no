@@ -9,3 +9,6 @@ repository = "https://github.com/quantumish/no"
 description = "like 'yes', but a bit more negative, and a lot more speedy."
 categories = ["command-line-utilities"]
 keywords = ["cli", "yes", "no", "built-in"]
+
+[dependencies]
+nix = { version = "0.24.1", features = ["fs"] }
